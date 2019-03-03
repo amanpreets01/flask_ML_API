@@ -18,4 +18,4 @@ Processes:
 
 Note:Dont forget to SET FLASK_APP=app.py
 
-3.Simply run "flask_run"
+3.Simply run "flask run"
