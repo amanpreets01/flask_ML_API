@@ -16,6 +16,8 @@ Processes:
   
 2.Run the flask globally or in virtual environment as you wish
 
-Note:Dont forget to SET FLASK_APP=app.py
+    Note:Dont forget to SET FLASK_APP=app.py
 
 3.Simply run "flask run"
+
+4 .Then either use curl to request or use Postman : https://www.getpostman.com/
