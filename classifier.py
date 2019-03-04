@@ -14,6 +14,5 @@ class IrisClassifier:
         clf = joblib.load('iris_classifier.sav')   
         ans = clf.predict(pdData)
         ans = ans[0]
-        print(ans)
 
         return str(ans)
