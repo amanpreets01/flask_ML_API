@@ -10,9 +10,28 @@ Steps :
 
 
 Processes:
+  API ref : /get_type/sl/
 
 1.Run the train_classifier.py
   The model will be saved with name 'iris_classifier.sav'
+  
+2.Run the flask globally or in virtual environment as you wish
+
+    Note:Dont forget to SET FLASK_APP=app.py
+
+3.Simply run "flask run"
+
+4 .Then either use curl to request or use Postman : https://www.getpostman.com/
+
+
+  API ref : /get_type/tp
+Another approach is when we want to use any Neural Net as a classifier
+
+  Logic is the same : save_weights + build_architeture_at_reference + load_weights ------> pass the parameters onto model for classifying
+
+
+1.Run the IrisTorchClassifier.py
+  The model will be saved with name 'IrisTorchClassifier.pt'
   
 2.Run the flask globally or in virtual environment as you wish
 
