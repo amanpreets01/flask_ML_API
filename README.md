@@ -10,7 +10,8 @@ Steps :
 
 
 Processes:
-  API ref : /get_type/sl/
+
+    API ref : /get_type/sl/
 
 1.Run the train_classifier.py
   The model will be saved with name 'iris_classifier.sav'
@@ -24,7 +25,7 @@ Processes:
 4 .Then either use curl to request or use Postman : https://www.getpostman.com/
 
 
-  API ref : /get_type/tp
+    API ref : /get_type/tp
 Another approach is when we want to use any Neural Net as a classifier
 
   Logic is the same : save_weights + build_architeture_at_reference + load_weights ------> pass the parameters onto model for classifying
