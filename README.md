@@ -24,7 +24,7 @@ Processes:
 
 4 .Then either use curl to request or use Postman : https://www.getpostman.com/
 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Another approach is when we want to use any Neural Net as a classifier
 
